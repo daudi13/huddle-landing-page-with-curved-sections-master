@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* customization */
+
+:root {
+    /* primary colors */
+    --pink: hsl(322, 100%, 66%);
+    --link-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+
+    /* Neutral */
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
+}
+
+/* typography */
+
+h1, h2, h3  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    width: ;
+    display: inline-block;
+    padding: 5px 20px;
+    border: 1px solid;
+    border-color: var(--link-pink);
+    border-radius: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    padding: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.nav__header img {
+    height: 20px;
+}
+
+.nav__btn a {
+    font-size: 12px;
+    color: var(--link-pink);
+}
+
+.intro {
+    display: grid;
+    grid-gap: 7rem;
+    margin-bottom: 5rem;
+}
+
+.intro__text {
+    text-align: center;
+}
+
+.intro__title {
+    font-size: 25px;
+}
+
+.intro__txt {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.main__btn {
+    width: 60%;
+    font-size: 12px;
+    display: inline-block;
+    padding: 9px 20px;
+    border: 1px solid;
+    border-color: var(--pink);
+    color: #fff;
+    background-color: var(--pink);
+    border-radius: 20px;
+}
+
+.section--data {
+    display: grid;
+    grid-gap: 5rem;
+    margin-bottom: 10rem;
+}
+
+.section--data .data__box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 60%;
+    margin: auto;
+}
+
+.data__box img {
+    height: 25px;
+}
+
+.data__box .numbers {
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.data__box p {
+    text-transform: capitalize;
+    color: #888;
+    text-align: center;
+    font-size: 18px;
+}
+
+.main {
+    text-align: center;
+    display: grid;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+
+.main .box + .box {
+    margin-top: 15rem;
+}
+
+.box__bg {
+    margin-bottom: 40px;
+}
+
+.box__text .text__title {
+    margin-bottom: 15px;
+}
+
+.box__text .box__txt {
+    font-size: 16px;
+}
+
+.box--three {
+    margin-bottom: 8rem;
+}
+
+.action {
+    padding-bottom: 30px;
+}
+
+.box--btn {
+    width: 60%;
+    font-size: 12px;
+    display: inline-block;
+    padding: 9px 20px;
+    border: 1px solid;
+    border-color: var(--pink);
+    color: #fff;
+    background-color: var(--pink);
+    border-radius: 20px;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
+}
+
+/* remember to work on the curved backgrounds */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 25px 20px 25px;
+    background-color: var(--very-dark-cyan);
+    color: #fff;
+}
+
+.footer--wrapper {
+    display: grid;
+    grid-gap: 2.5rem;
+}
+
+.news .news__title {
+    padding-bottom: 10px;
+}
+
+.news__text {
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+form .input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.input #email {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.button {
+    width: 100%;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.subscribe--btn {
+    color: #fff;
+    background: var(--pink);
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid var(--pink);
+}
+
+.mid {
+    width: 100%;
+    text-align: justify;
+}
+
+.mid img {
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.phone img {
+    margin-right: 10px;
+}
+
+.email img {
+    margin-right: 10px;
+}
+
+
+
+
+

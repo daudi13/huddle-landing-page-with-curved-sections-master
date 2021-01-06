@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <link rel="stylesheet" href="./CSS/style.css">
 
   <!-- font awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -50,15 +53,15 @@
 
       <!-- the data section -->
       <section class="section--data">
-        <div>
+        <div class="data__box">
           <img src="./images/icon-communities.svg" alt="">
-          <span class="numbers">1.4k+</span>
-          <h3>Communities formed</h3>
+          <h1 class="numbers">1.4k+</h1>
+          <p>Communities formed</p>
         </div>
-        <div>
-          <img src="./images/icon-communities.svg" alt="">
-          <span class="numbers">2.7m+</span>
-          <h3>messeages sent</h3>
+        <div class="data__box">
+          <img src="./images/icon-messages.svg" alt="">
+          <h1 class="numbers">2.7m+</h1>
+          <p>messeages sent</p>
         </div>
       </section>
 
@@ -69,7 +72,7 @@
             <img src="./images/illustration-grow-together.svg" alt="">
           </div>
           <div class="box__text">
-            <h2 class="text__title">Grow Together</h2>
+            <h1 class="text__title">Grow Together</h1>
             <p class="box__txt">
               Generate meaningful discussions with your audience and build a strong, loyal community.
               Think of the insightful conversations you miss out on with a feedback form.
@@ -92,18 +95,18 @@
           <div class="box__bg">
             <img src="./images/illustration-your-users.svg" alt="">
           </div>
-          <div class="box__four">
-            <h2 class="text__title">Your Users</h2>
+          <div class="box__text box--three">
+            <h1 class="text__title">Your Users</h1>
             <p class="box__txt">
               It takes no time at all to integrate Huddle with your app's authentication solution. This means,
               once signed in to your app, your users can start chatting immediately.
             </p>
           </div>
         </div>
-        <div class="box box--five">
+        <div class="click-box">
           <div class="box__text">
             <h1 class="action">Ready To Build Your Community?</h1>
-            <a href="btn box--btn">Get Started For Free</a>
+            <a href="#" class="btn box--btn">Get Started For Free</a>
           </div>
         </div>
       </section>
@@ -121,14 +124,16 @@
             <div class="input">
               <input type="email" name="email" id="email">
             </div>
-            <a href="#" class="btn subscribe--btn"></a>
+            <div class="button">
+              <a href="#" class="btn subscribe--btn">Subscribe</a>
+            </div>
           </form>
         </div>
         <div class="mid">
-          <img src="./images/logo.svg" alt="">
-          <p class="mid__text">
-            To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-            send you spam or pass on your email address
+          <img src="./images/logo 2/logo.svg" alt="">
+          <p class="news__text">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+            vestibulum a, ultrices quis sem.
           </p>
         </div>
         <div class="contacts">
@@ -141,16 +146,17 @@
             <span>example@huddle.com</span>
           </div>
         </div>
+        <div class="social-media">
+          <a href="#" class="social-media__link"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="social-media__link"><i class="fab fa-instagram-square"></i></a>
+          <a href="#" class="social-media__link"><i class="fab fa-twitter-square"></i></a>
+        </div>
       </div>
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Your Name Here</a>.
       </p>
-      <div class="social-media">
-        <a href="#" class="social-media__link"><i class="fab fa-facebook-square"></i></a>
-        <a href="#" class="social-media__link"><i class="fab fa-instagram-square"></i></a>
-        <a href="#" class="social-media__link"><i class="fab fa-twitter-square"></i></a>
-      </div>
+      
     </footer>
   </div>
 </body>
