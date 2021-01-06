@@ -61,14 +61,13 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     height: auto;
-    padding: 2rem;
+    padding: 2rem 3rem;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 6rem;
 }
 
 .nav__header img {
@@ -84,6 +83,7 @@ body {
     display: grid;
     grid-gap: 7rem;
     margin-bottom: 5rem;
+    margin-top: 10rem;
 }
 
 .intro__text {
@@ -108,8 +108,8 @@ body {
 }
 
 .main__btn {
-    max-width: 60%;
-    font-size: 12px;
+    width: 300px;
+    font-size: 15px;
     display: inline-block;
     padding: 9px 20px;
     border: 1px solid;
@@ -117,6 +117,9 @@ body {
     color: #fff;
     background-color: var(--pink);
     border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
+
 }
 
 .section--data {
@@ -186,8 +189,8 @@ body {
 }
 
 .box--btn {
-    max-width: 60%;
-    font-size: 12px;
+    width: 300px;
+    font-size: 15px;
     display: inline-block;
     padding: 9px 20px;
     border: 1px solid;
@@ -195,6 +198,7 @@ body {
     color: #fff;
     background-color: var(--pink);
     border-radius: 20px;
+    margin-top: 20px;
     box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
 }
 
